@@ -16,6 +16,7 @@ import { ProductCategoriesForCatComponent } from './product-categories/product-c
 import { EnterComponent } from './enter/enter.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { CartComponent } from './cart/cart.component';
+import { SearchComponent } from './search/search.component';
 
 const appRoutes = [
   { path: '', component: MainPageComponent},
@@ -47,7 +48,8 @@ const appRoutes = [
     ProductCategoriesForCatComponent,
     EnterComponent,
     RegistrationComponent,
-    CartComponent
+    CartComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

@@ -1,0 +1,75 @@
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.description-logo {
+  font-size: small;
+}
+
+.phone {
+  padding: 5px;
+}
+
+.main-menu-wrapper {
+  background-color: #21eb1b;
+}
+
+.main-menu__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1.25em;
+  margin: 0;
+}
+
+.main-menu__item {
+  display: inline-flex;
+  padding: 0.312em 0.625em;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1.25em;
+}
+
+.info-wrapper__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.category-of-product-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #21eb1b;
+}
+
+.category-of-product {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-of-product__pet {
+  padding: 0 1.25em;
+}
+
+.info-wrapper__cart {
+  display: flex;
+  flex-direction: row;
+  width: 3.75em;
+  height: 1.6em;
+  border: 1px solid #ff8941;
+  background-color: #ff8941;
+}
+
+.active {
+  color: red;
+  border-bottom: 2px solid red;
+}

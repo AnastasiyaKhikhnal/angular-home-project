@@ -13,6 +13,8 @@ import { DeliveryInformationPageComponent } from './pages/delivery-information-p
 import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
 import { ProductCategoriesForDogComponent } from './product-categories/product-categories-for-dog/product-categories-for-dog.component';
 import { ProductCategoriesForCatComponent } from './product-categories/product-categories-for-cat/product-categories-for-cat.component';
+import { EnterComponent } from './enter/enter.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 const appRoutes = [
   { path: '', component: MainPageComponent},
@@ -22,6 +24,9 @@ const appRoutes = [
   { path: 'contacts', component: ContactsPageComponent},
   { path: 'dog-products', component: ProductCategoriesForDogComponent},
   { path: 'cat-products', component: ProductCategoriesForCatComponent},
+  { path: 'enter', component: EnterComponent},
+  { path: 'registration', component: RegistrationComponent},
+
   { path: '**', redirectTo: '/'}
 ];
 
@@ -37,7 +42,9 @@ const appRoutes = [
     DeliveryInformationPageComponent,
     ContactsPageComponent,
     ProductCategoriesForDogComponent,
-    ProductCategoriesForCatComponent
+    ProductCategoriesForCatComponent,
+    EnterComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

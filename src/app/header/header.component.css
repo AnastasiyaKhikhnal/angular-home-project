@@ -15,13 +15,28 @@ a {
 }
 
 .main-menu-wrapper {
-  background-color: #21eb1b;
-}
-
-.main-menu__list {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+  background-color: #21eb1b;
+}
+
+.authorization-wrapper {
+  display: flex;
+  padding-left: 8em;
+}
+
+.authorization__list {
+  display: inline-flex;
+}
+
+.authorization__item {
+  padding: 0.5em;
+}
+
+.main-menu__list {
+  display: inline-flex;
   padding: 1.25em;
   margin: 0;
 }

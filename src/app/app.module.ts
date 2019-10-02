@@ -11,13 +11,17 @@ import { OrderInformationPageComponent } from './pages/order-information-page/or
 import { PaymentInformationPageComponent } from './pages/payment-information-page/payment-information-page.component';
 import { DeliveryInformationPageComponent } from './pages/delivery-information-page/delivery-information-page.component';
 import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
+import { ProductCategoriesForDogComponent } from './product-categories/product-categories-for-dog/product-categories-for-dog.component';
+import { ProductCategoriesForCatComponent } from './product-categories/product-categories-for-cat/product-categories-for-cat.component';
 
 const appRoutes = [
-  {path: '', component: MainPageComponent},
-  {path: 'order', component: OrderInformationPageComponent},
+  { path: '', component: MainPageComponent},
+  { path: 'order', component: OrderInformationPageComponent},
   { path: 'delivery', component: DeliveryInformationPageComponent},
   { path: 'payment', component: PaymentInformationPageComponent},
   { path: 'contacts', component: ContactsPageComponent},
+  { path: 'dog-products', component: ProductCategoriesForDogComponent},
+  { path: 'cat-products', component: ProductCategoriesForCatComponent},
   { path: '**', redirectTo: '/'}
 ];
 
@@ -31,7 +35,9 @@ const appRoutes = [
     OrderInformationPageComponent,
     PaymentInformationPageComponent,
     DeliveryInformationPageComponent,
-    ContactsPageComponent
+    ContactsPageComponent,
+    ProductCategoriesForDogComponent,
+    ProductCategoriesForCatComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

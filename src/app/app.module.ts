@@ -13,13 +13,13 @@ import { DeliveryInformationPageComponent } from './pages/delivery-information-p
 import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
 import { ProductCategoriesForDogComponent } from './product-categories/product-categories-for-dog/product-categories-for-dog.component';
 import { ProductCategoriesForCatComponent } from './product-categories/product-categories-for-cat/product-categories-for-cat.component';
-import { EnterComponent } from './enter/enter.component';
+import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { CartComponent } from './cart/cart.component';
 import { SearchComponent } from './search/search.component';
 import { CardProductComponent } from './card-product/card-product.component';
 
-const appRoutes = [
+const appRoutes: Routes = [
   { path: '', component: MainPageComponent},
   { path: 'order', component: OrderInformationPageComponent},
   { path: 'delivery', component: DeliveryInformationPageComponent},
@@ -27,10 +27,9 @@ const appRoutes = [
   { path: 'contacts', component: ContactsPageComponent},
   { path: 'dog-products', component: ProductCategoriesForDogComponent},
   { path: 'cat-products', component: ProductCategoriesForCatComponent},
-  { path: 'enter', component: EnterComponent},
+  { path: 'enter', component: LoginComponent},
   { path: 'registration', component: RegistrationComponent},
   { path: 'cart', component: CartComponent},
-
   { path: '**', redirectTo: '/'}
 ];
 
@@ -47,7 +46,7 @@ const appRoutes = [
     ContactsPageComponent,
     ProductCategoriesForDogComponent,
     ProductCategoriesForCatComponent,
-    EnterComponent,
+    LoginComponent,
     RegistrationComponent,
     CartComponent,
     SearchComponent,

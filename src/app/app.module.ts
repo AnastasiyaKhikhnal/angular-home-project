@@ -17,6 +17,7 @@ import { EnterComponent } from './enter/enter.component';
 import { RegistrationComponent } from './registration/registration.component';
 import { CartComponent } from './cart/cart.component';
 import { SearchComponent } from './search/search.component';
+import { CardProductComponent } from './card-product/card-product.component';
 
 const appRoutes = [
   { path: '', component: MainPageComponent},
@@ -49,7 +50,8 @@ const appRoutes = [
     EnterComponent,
     RegistrationComponent,
     CartComponent,
-    SearchComponent
+    SearchComponent,
+    CardProductComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

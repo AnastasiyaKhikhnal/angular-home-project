@@ -1,0 +1,11 @@
+.wrapper-delivery-info {
+  margin: 30px;
+}
+
+li {
+  list-style: none;
+  background: url("./../../../assets/img/foot-track.png") no-repeat 4px 31px;
+  padding-left: 58px;
+  padding-top: 36px;
+  background-size: 20px;
+}

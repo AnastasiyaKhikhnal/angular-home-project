@@ -51,6 +51,7 @@ a {
   flex-direction: row;
   justify-content: space-around;
   padding: 1.25em;
+  background: linear-gradient(to top, #ececec, white);
 }
 
 .info-wrapper__phone {
